@@ -1,0 +1,50 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "./assets/skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "./assets/skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "./assets/skills/react.png"
+    },
+    {
+      "title": "NodeJS",
+      "imageSrc": "./assets/skills/node.png"
+    },
+    {
+      "title": "C++",
+      "imageSrc": "./assets/skills/c++.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "./assets/skills/mongodb.png"
+    },
+    {
+      "title": "Linux",
+      "imageSrc": "./assets/skills/linux.png"
+    },
+    {
+      "title": "Arduino",
+      "imageSrc": "./assets/skills/arduino.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "./assets/skills/js.png"
+    },
+    {
+      "title": "ExpressJS",
+      "imageSrc": "./assets/skills/express.png"
+    },
+    {
+      "title": "Mongoose",
+      "imageSrc": "./assets/skills/mongoose.png"
+    },
+    {
+      "title": "Tailwind",
+      "imageSrc": "./assets/skills/tailwind.png"
+    }
+  ]

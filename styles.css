@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F1F1;
+    padding: 30px 50px;
+}
+.header .left{
+    width: 50%;
+}
+.left h1{
+    font-family: "Outfit", sans-serif;
+    font-size: 2rem;
+    color: #146C94;
+}
+.header .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.right a{
+    color: #000000;
+    font-size: 1.5rem;
+    font-family: "Outfit", sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+.right a:hover{
+    color: #146C94;
+}
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #AFD3E2;
+    padding: 30px 50px;
+}
+.about .profile{
+    display: flex;
+    justify-content: space-between;
+}
+.profile .img{
+    width: 50%;
+    position: relative;
+}
+.img .pattern{
+    width: 60%;
+    height: 60vh;
+    border-radius: 20px;
+}
+.img .me{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    border-radius: 20px;
+}
+.profile .intro{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.intro h1{
+    font-family: "Outfit", sans-serif;
+    font-size: 3rem;
+    color: #2F3645;
+}
+.intro h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 2rem;
+    color: #2F3645;
+}
+.intro p{
+    font-family: "Outfit", sans-serif;
+    font-size: 2rem;
+    color: #2F3645;
+}
+.about .speciality{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+}
+.speciality h1{
+    font-size: 1.5rem;
+    font-family: "Outfit", sans-serif;
+    color: #2F3645; 
+}
+.speciality p{
+    font-size: 1.5rem;
+    font-family: "Outfit", sans-serif;
+    color: #146C94;
+    background-color: #F6F1F1;
+    padding: 20px 20px;
+    transition: all 0.3s;
+}
+.speciality p:hover{
+    background-color: #146C94;
+    color: #F6F1F1;
+    transition: all 0.3s;
+}
+.about .skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+}
+.skills h1{
+    font-size: 1.5rem;
+    font-family: "Outfit", sans-serif;
+    color: #2F3645; 
+}
+.skills .skills-menu{
+    background-color: #F6F1F1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-menu .skill{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+.skill img{
+    width: 75px;
+    height: 75px;
+}
+.skill p{
+    margin-top: 10px;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+}
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #19A7CE;
+    padding: 30px 50px;
+}
+.projects .projects-title h1{
+    font-size: 1.5rem;
+    font-family: "Outfit", sans-serif;
+    color: #2F3645; 
+}
+.card-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #F6F1F1;
+    border-radius: 10px;
+}
+.card img{
+    border-radius: 10px 10px 0px 0px;
+}
+.card h1{
+    padding: 0px 10px;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.75rem;
+}
+.card p{
+    padding: 0px 10px;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.25rem;
+}
+.card .used-skills{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+.used-skills p{
+    background-color: #146C94;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.card .links{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+.links a{
+    background-color: #146C94;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Outfit", sans-serif;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.links a:hover{
+    background-color: #1b5875;
+    transition: all 0.3s;
+}
+.resume{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #146C94;
+    padding: 30px 50px;
+    font-family: "Outfit", sans-serif;
+}
+.resume-title a{
+    font-size: 1.5rem;
+    background-color: #F6F1F1;
+    padding: 5px 15px;
+    color: #146C94;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+.resume-title a:hover{
+    background-color: #cac7c7;
+    transition: all 0.3s;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    background-color: #F6F1F1;
+    padding: 30px 50px;
+    font-family: "Outfit", sans-serif;
+    padding: 0px 20%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.contact .left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact .left h2{
+    font-size: 3.5rem;
+}
+.contact .left p{
+    font-size: 2rem;
+}
+.contact .right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    background-color: #F6F1F1;
+    font-family: "Outfit", sans-serif;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
